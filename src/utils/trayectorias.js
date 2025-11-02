@@ -1,5 +1,5 @@
 // utils/trayectorias.js
-
+import { cinematicaInversa } from './cinematica.js';
 // Generar coeficientes para polinomio de 5° orden
 function generarPolinomioQuintico(qi, qf, qpi, qpf, qppi, qppf, ti, tf) {
     const T = tf - ti;

@@ -1,9 +1,9 @@
 // App.js actualizado
 import React, { useState, useEffect } from 'react';
-import RobotVisualization from './components/RobotVisualization';
-import GraficasTrayectoria from './components/GraficasTrayectoria';
-import { generarTrayectoriaCompleta } from './utils/trayectorias';
-import { cinematicaDirecta, cinematicaInversa, enEspacioTrabajo } from './utils/cinematica';
+import RobotVisualization from './components/RobotVisualization.jsx';
+import GraficasTrayectoria from './components/GraficasTrayectoria.jsx';
+import { generarTrayectoriaCompleta } from './utils/trayectorias.js';
+import { cinematicaDirecta, cinematicaInversa, enEspacioTrabajo } from './utils/cinematica.js';
 import './RobotApp.css';
 
 const RobotApp = () => {
